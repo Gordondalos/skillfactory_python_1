@@ -4,7 +4,7 @@ import math
 
 
 def read_data():
-    handle = open('war_peace_processed.txt', 'rt', encoding="utf-8")
+    handle = open('../war_peace_processed.txt', 'rt', encoding="utf-8")
     res = handle.read()
     handle.close()
     return res.split('\n')
